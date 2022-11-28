@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title> Contacto </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> <a href="about.html">Acerca de</a> <a href="contacto.html">Contacto</a> <a href="sucursales.html">Ferias </a> <a href="compras.html"> Tienda </a>
+        </nav>
+        <h1 class="animate__bounceOut"> Selseb Artesanal <img src="https://img.icons8.com/emoji/48/null/growing-heart.png"/> </h1>
+    </header>
+
+    <main>
+        <h2 style="text-align: center; background-color: black; color: rgb(155, 70, 70); margin-bottom: 20px;"> Contacto </h2>
+        <section class="flex-container">
+            <form class="contacto" action="enviarMail.html" method="GET" autocomplete="off" onsubmit="return validarForm();">
+                <label> Su Nombre: </label> <br> <input type="text" id="nombre" placeholder="Ingrese su nombre aqui..." > <br><br>
+                <label> Email: </label> <br> <input type="text" id="email" placeholder="mail@dominio.com" onblur="validateMail();"> <br><br>  
+                <label> Asunto: </label> <br> <input type="text" id="asunto" > <br><br>
+                <label> Mensaje:</label> <textarea id="message"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
+        <!--<div>
+            <p> Para mayor información por favor enviar mail a: </p>
+        </div>
+        <section>
+            <a href="mailto://ludmilamoreira2384@gmail.com"> ludmilamoreira2384@gmail.com </a>
+        </section> -->
+    </main>
+
+    <footer> 
+        <div>
+            <a href="https://www.instagram.com/selseb_artesanal/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=3417187452&text=Necesito Informacion" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <br>
+        &COPY; All Rights Reserved 2020</a>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
