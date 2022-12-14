@@ -1,2 +1,0 @@
-# TPO
-Trabajo Practico Obligatorio
