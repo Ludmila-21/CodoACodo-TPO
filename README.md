@@ -1,2 +1,2 @@
-# CodoACodo-TPO
-Trabajo Practico Obligatorio Codo a Codo
+# TPO
+Trabajo Practico Obligatorio
